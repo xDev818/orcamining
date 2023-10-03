@@ -99,23 +99,18 @@ header{
     position: absolute;
     top: 100%;
     left: 0;
-    width: 15rem;
+    width: 10rem;
     transform: translateY(10px);
     opacity: 0;
     pointer-events: none;
     transition: .5s;
-   
-    /*
-
-    */
+    
 }
 
 .dropdown ul{
     position: relative;
     
 }
-
-
 
 .dropdown-link > a{
     display: flex;
@@ -181,7 +176,7 @@ header{
     left: -5.5px;
 }
 
-.nav-link:hover > .dropdown, 
+.nav-link:hover > .dropdown,
 .dropdown-link:hover > .dropdown{
     transform: translate(0, 0);
     opacity: 1;
@@ -189,29 +184,7 @@ header{
     
 }
 
-.dropdown.clicked{
-    opacity: 0;
-    display: none;
-}
 
-
-.nav-link:hover ~ .dropdown.clicked , 
-.dropdown.clicked:hover > .dropdown.clicked {
-    transform: translate(0, 0);
-    opacity: 1;
-    pointer-events:auto;
-}
-/*
-
-.nav-link:hover > .dropdown,
-.dropdown-link:hover > .dropdown{
-    transform: translate(0, 0);
-    opacity: 1;
-    pointer-events:auto;
-}
-
-}
-*/
 
 .hamburger-menu-container{
     flex: 1;
@@ -273,14 +246,7 @@ header{
 }
 
 /* added : 10/01
-    Purpose : Trigger to click show and hide the dropdown elemnent
-    Element in header.tsx unde  <li className="nav-link">
-
-    <input type="checkbox" name="" id="toggleaboutus">
-    </input>    
-    
-*/
-    
+    Purpose : Trigger to click show and hide the dropdown elemnent */
 #toggleaboutus{
     position:absolute;
     width: 100%;
@@ -297,6 +263,9 @@ header{
 }
 
 
+.dropdown.clicked{
+    display: none;
+}
 
 
 
@@ -354,7 +323,7 @@ header{
     }
 
     /* added : 10/01
-    Purpose : Trigger to click show and hide the dropdown elemnent 
+    Purpose : Trigger to click show and hide the dropdown elemnent */
     #toggleaboutus:checked ~ a > i{
         transform: rotate(0deg);
     }
@@ -362,7 +331,7 @@ header{
     #toggleaboutus:checked ~ .dropdown {
         display: block;
     
-    }*/
+    }
  /* end here */
 
     #check:checked ~ .nav-btn .nav-link,
@@ -431,20 +400,13 @@ header{
     }
 
     */}
-
-    .nav-link:hover > a > i,
-    .dropdown-link:hover > a ~ i{
-        transform: rotate(360deg);
-    }
     .nav-link:hover > .dropdown,
     .dropdown-link:hover > .dropdown{
-        display: block;
-    }
-
-    .dropdown.clicked , .dropdown{
-        opacity: 0;
         display: none;
     }
+
+
+
 
     .dropdown-link > a{
         background-color: transparent;

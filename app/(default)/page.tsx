@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Test Project',
+  title: 'Orca Construction and Material',
   description: 'Page Description Here',
 }
 
@@ -7,14 +7,11 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 
-
-
 import background from "../../app/src/assets/images/homeDefaultBg.jpg"
 // "../src/assets/images/homeDefaultBg.png" 
 //'../../src/assets/images/features-03-image-03.png'
 
 export default function Home() {
-
 
   const backgroundImgStyle={
     backgroundImage:

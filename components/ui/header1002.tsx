@@ -23,7 +23,6 @@ export default function Header() {
   //const toggle = () => setIsOpen(!isOpen);
  
   const [dropdown, setDropdown] = useState(false);
-  const [show,ShowDropDown] = useState(false);
 
   return (
 
@@ -42,13 +41,15 @@ export default function Header() {
               <div className= "nav-btn" >
                 <div className="nav-links" >
                     <ul >
-                        <li className="nav-link" onMouseEnter={() => setDropdown(false)}>
+                        <li className="nav-link" >
                           <Link href="/" >
                             Home
                           </Link>
                         </li>
-                        <li className="nav-link" onMouseEnter={() => setDropdown(false)}>
-                            <a href="#">About Us<i className="fa fa-caret-down" ></i></a>
+                        <li className="nav-link">
+                        <input type="checkbox" name="" id="toggleaboutus">
+                        </input>
+                            <a href="#">About Us<i className="fa fa-caret-down"></i></a>
                             <div className= {dropdown ? "dropdown clicked" : "dropdown"} onClick={() => setDropdown(!dropdown)} >
                                 <ul>
                                     <li className= "dropdown-link" >
@@ -67,22 +68,17 @@ export default function Header() {
                                       </Link>
                                     </li>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/core-values"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/core-values">
                                         Core Values
                                       </Link>
                                     </li>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/orgchart"
-                                      onClick={() => setDropdown(false)}>
+                                      <Link href="/pages/orgchart">
                                        Organizational Chart
                                       </Link>
                                     </li>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/articles"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/articles">
                                       Articles of Incorporation and By-Laws
                                       </Link>
                                     </li>
@@ -90,30 +86,23 @@ export default function Header() {
                                 </ul>
                             </div>
                         </li>
-
-                        <li className="nav-link" onMouseEnter={() => setDropdown(false)}>
+                        <li className="nav-link" >
                             <a href="#">Services<i className="fa fa-caret-down"></i></a>
-                            <div className= {dropdown ? "dropdown clicked" : "dropdown"} onClick={() => setDropdown(!dropdown)}>
+                            <div className="dropdown">
                                 <ul>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/services/mineral"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/services/mineral">
                                         Mineral Supply
                                       </Link>
                                         
                                     </li>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/services/waste"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/services/waste">
                                         Waste Management 
                                       </Link>
                                     </li>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/services/construction"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/services/construction">
                                         Construction
                                       </Link>
                                     </li>
@@ -121,21 +110,17 @@ export default function Header() {
                                 </ul>
                             </div>
                         </li>
-                        <li className="nav-link" onMouseEnter={() => setDropdown(false)}>
+                        <li className="nav-link" >
                             <a href="#">Corporate Governance<i className="fa fa-caret-down"></i></a>
-                            <div className= {dropdown ? "dropdown clicked" : "dropdown"} onClick={() => setDropdown(!dropdown)}>
+                            <div className="dropdown">
                                 <ul>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/businessethics"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/businessethics">
                                        Business Ethics
                                       </Link>
                                     </li>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/policies"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/policies">
                                        Policies
                                       </Link>
                                     </li>
@@ -144,9 +129,7 @@ export default function Header() {
                                         <div className="dropdown second">
                                             <ul>
                                                 <li className="dropdown-link">
-                                                <Link href="/pages/partners/zeco"
-                                                onClick={() => setDropdown(false)}
-                                                >
+                                                <Link href="/pages/partners/zeco">
                                                   Zeco Industries
                                                 </Link>
                                                 </li>
@@ -155,9 +138,7 @@ export default function Header() {
                                         </div>
                                     </li>
                                     <li className="dropdown-link">
-                                      <Link href="/pages/risk"
-                                      onClick={() => setDropdown(false)}
-                                      >
+                                      <Link href="/pages/risk">
                                        Risk Management
                                       </Link>
                                     </li>
@@ -165,6 +146,7 @@ export default function Header() {
                                 </ul>
                             </div>
                         </li>
+
                     </ul>
                 </div>
               </div>

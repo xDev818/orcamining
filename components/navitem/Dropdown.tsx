@@ -6,13 +6,16 @@ import "./Dropdown.css";
 
 function Dropdown() {
   const [dropdown, setDropdown] = useState(false);
+  const [test, setTest] = useState()
 
   return (
     <>
 
       <ul
         className={dropdown ?  "services-submenu clicked" : "services-submenu"}
-        onClick={() => setDropdown(!dropdown)}
+        onClick={() => {
+          setDropdown(!dropdown)
+        }}
       >
         {
             serviceDropdown.map((item) => {

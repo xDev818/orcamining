@@ -189,7 +189,8 @@ export default function Header() {
                   <a href="#">
                     Services<i className="fa fa-caret-down"></i>
                   </a>
-                  <div className="dropdown">
+                  <div className={dropdown ? "dropdown clicked" : "dropdown"}
+                    onClick={() => setDropdown(!dropdown)}>
                     <ul>
                       <li className="dropdown-link">
                         <Link
@@ -224,7 +225,8 @@ export default function Header() {
                   <a href="#">
                     Corporate Governance<i className="fa fa-caret-down"></i>
                   </a>
-                  <div className="dropdown">
+                  <div className={dropdown ? "dropdown clicked" : "dropdown"}
+                    onClick={() => setDropdown(!dropdown)}>
                     <ul>
                       <li className="dropdown-link">
                         <Link

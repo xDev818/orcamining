@@ -20,11 +20,10 @@ export const metadata = {
       backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat',
       height: '100vh',
-     
     };
   
     return (
-      <section className="relative">
+      <section className="relative ">
         <div className="max-w-6xl mx-auto px-4 sm:px-6" >
           <div className="pt-10 pb-12 md:pt-10 md:pb-20" >
   

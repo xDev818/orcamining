@@ -246,12 +246,14 @@ export default function Header() {
                         </Link>
                       </li>
                       <li className="dropdown-link">
+                      <input type="checkbox" name="" id="toggleaboutus"></input>
                         <a href="#">
                           Partners<i className="fa fa-caret-down"></i>
                         </a>
                         <div className="dropdown second">
                           <ul>
                             <li className="dropdown-link">
+                              
                               <Link
                                 href="/pages/partners/zeco"
                                 onClick={() => setDropdown(!dropdown)}

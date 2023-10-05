@@ -109,6 +109,7 @@ export default function Header() {
                       <Link href="/pages/policies">Policies</Link>
                     </li>
                     <li className="dropdown-link">
+
                       <a href="#">
                         Partners<i className="fa fa-caret-down"></i>
                       </a>

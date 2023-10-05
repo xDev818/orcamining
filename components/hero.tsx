@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import ModalVideo from '@/components/modal-video'
 
-import HomeBgEmail from '../app/src/assets/images/homeBgIronOre.jpg'
-import contactus from '../app/src/assets/images/contactus.png'
+import HomeBgEmail from '../app/src/assets/images/homeBgIronOre.webp'
+import contactus from '../app/src/assets/images/contactus.webp'
 import '../app/css/Background.module.css'
 
 export default function Hero() {
@@ -11,13 +11,17 @@ export default function Hero() {
     <section>
       <div className="max-w-6xl mx-auto relative">
 
-        {/* Hero content */}
-        <div className="relative pt-40  md:pt-50 md:pb-16">
+        {/* Hero content 
+        className="relative pt-40  md:pt-50 md:pb-16 md:mx-[200px] lg:ml-[400px]"
+        <h1 className='text-5xl md:text-center' >Let's talk your requirement</h1>
+        <p className="text-6sm text-gray-800 mb-8 md:text-center" >Mining , Construction and Waste Management Industry is our expertise. Making the complex simple.</p>
+        */}
+        <div className="relative pt-40  md:pt-50 md:pb-16 ">
          
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-gray-800 md:pb-10">
-            <h1 className='text-5xl' >Let's talk your requirement</h1>
-            <p className="text-6sm text-gray-800 mb-8 " >Mining , Construction and Waste Management Industry is our expertise. Making the complex simple.</p>
+            <h1 className='text-5xl md:text-center' >Let's talk your requirement</h1>
+            <p className="text-6sm text-gray-800 mb-8" >Mining , Construction and Waste Management Industry is our expertise. Making the complex simple.</p>
             <div className="text-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div  className="flex">
                 <a className="btn text-white w-22 h-20 " href="#0" style={{backgroundColor:'#08c5d6'}}>

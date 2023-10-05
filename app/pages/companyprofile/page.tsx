@@ -4,7 +4,7 @@ export const metadata = {
 };
 
 import Link from "next/link";
-import background from "../../src/assets/images/CompanyProfile.jpg";
+import background from "../../src/assets/images/CompanyProfile.webp";
 
 export default function CompanyProfile() {
   const backgroundImgStyle = {

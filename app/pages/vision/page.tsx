@@ -4,7 +4,7 @@ export const metadata = {
   }
   
   import Link from 'next/link'
-  import background from "../../src/assets/images/MissionVision.jpg"
+  import background from "../../src/assets/images/MissionVision.webp"
   
   export default function CompanyProfile() {
   

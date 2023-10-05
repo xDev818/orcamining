@@ -7,7 +7,7 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 
-import background from "../../app/src/assets/images/homeDefaultBg.jpg"
+import background from "../../app/src/assets/images/homeDefaultBg.webp"
 // "../src/assets/images/homeDefaultBg.png" 
 //'../../src/assets/images/features-03-image-03.png'
 

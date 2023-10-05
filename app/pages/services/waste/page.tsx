@@ -1,11 +1,11 @@
 export const metadata = {
-  title: 'Company Profile',
+  title: 'Waste Management',
   description: 'Company Profile',
 }
 
 import Link from 'next/link'
 import ModalVideo from '../../../../components/modal-video'
-import VideoThumb from '../../../src/assets/images/waste/zeco.jpg'
+import VideoThumb from '../../../src/assets/images/waste/zeco.webp'
 
 export default function Waste() {
 

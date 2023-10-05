@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 import PageIllustration from '@/components/page-illustration'
 import Footer from '@/components/ui/footer'
 
-import background from "../src/assets/images/homeDefaultBg.jpg"
+import background from "../src/assets/images/homeDefaultBg.webp"
 
 import Hero from '../../components/hero'
 import Features from '../../components/features'

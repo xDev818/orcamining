@@ -4,7 +4,7 @@ export const metadata = {
 }
 
 import Link from 'next/link'
-import background from "../../../src/assets/images/waste/zeco.jpg"
+import background from "../../../src/assets/images/waste/zeco.webp"
 
 export default function Zeco() {
 

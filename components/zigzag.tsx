@@ -5,23 +5,23 @@ import Image from 'next/image'
 
 
 import ImageSlider from "../components/imageslider/ImageSlider"
-import zg1 from "../app/src/assets/images/zigzag/quality/zigProduct1.png"
-import zg2 from "../app/src/assets/images/zigzag/quality/zigzagProduct2.png"
-import zg3 from "../app/src/assets/images//zigzag/quality/zigzagProduct3.png"
-import zg4 from "../app/src/assets/images//zigzag/quality/quality1.jpg"
-import zg5 from "../app/src/assets/images//zigzag/quality/quality2.jpg"
-import zg6 from "../app/src/assets/images//zigzag/quality/quality3.jpg"
+import zg1 from "../app/src/assets/images/zigzag/quality/zigProduct1.webp"
+import zg2 from "../app/src/assets/images/zigzag/quality/zigzagProduct2.webp"
+import zg3 from "../app/src/assets/images//zigzag/quality/zigzagProduct3.webp"
+import zg4 from "../app/src/assets/images//zigzag/quality/quality1.webp"
+import zg5 from "../app/src/assets/images//zigzag/quality/quality2.webp"
+import zg6 from "../app/src/assets/images//zigzag/quality/quality3.webp"
 
-import zgintegrity from"../app/src/assets/images//zigzag/integrity/integrity1.jpg"
-import zgintegrity2 from"../app/src/assets/images//zigzag/integrity/integrity2.jpg"
+import zgintegrity from"../app/src/assets/images//zigzag/integrity/integrity1.webp"
+import zgintegrity2 from"../app/src/assets/images//zigzag/integrity/integrity2.webp"
 
-import zgspeed1 from"../app/src/assets/images//zigzag/speed/zigzagProduct3.png"
+import zgspeed1 from"../app/src/assets/images//zigzag/speed/zigzagProduct3.webp"
 
 import ImageSliderenergy from "../components/imageslider/ImageSlider"
-import zgenergy1 from '../app/src/assets/images/zigzag/energy/bioenergy.jpg'
-import zgenergy2 from '../app/src/assets/images/zigzag/energy/peletting.jpg'
-import zgenergy3 from '../app/src/assets/images/zigzag/energy/clean.jpg'
-import zgenergy4 from '../app/src/assets/images/zigzag/energy/clean4.jpg'
+import zgenergy1 from '../app/src/assets/images/zigzag/energy/bioenergy.webp'
+import zgenergy2 from '../app/src/assets/images/zigzag/energy/peletting.webp'
+import zgenergy3 from '../app/src/assets/images/zigzag/energy/clean.webp'
+import zgenergy4 from '../app/src/assets/images/zigzag/energy/clean4.webp'
 
 export default function Zigzag() {
 

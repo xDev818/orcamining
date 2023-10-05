@@ -5,7 +5,7 @@ export const metadata = {
 
 import Link from 'next/link'
 
-import background from "../../src/assets/images/policies.jpg"
+import background from "../../src/assets/images/policies.webp"
 
 export default function Policies() {
 

@@ -4,12 +4,12 @@ import Link from 'next/link'
 
 import ImageSlider from "../../../../components/imageslider/ImageSlider"
 
-import silver from "../../../src/assets/images/mineral/silver.jpg"
-import silica from "../../../src/assets/images/mineral/silica.jpg"
-import ironore from "../../../src/assets/images/mineral/Iron-Ore.jpg"
-import blacksand from "../../../src/assets/images/mineral/blacksand.jpg"
-import gold from "../../../src/assets/images/mineral/gold.jpg"
-import copper from "../../../src/assets/images/mineral/copper.jpg"
+import silver from "../../../src/assets/images/mineral/silver.webp"
+import silica from "../../../src/assets/images/mineral/silica.webp"
+import ironore from "../../../src/assets/images/mineral/Iron-Ore.webp"
+import blacksand from "../../../src/assets/images/mineral/blacksand.webp"
+import gold from "../../../src/assets/images/mineral/gold.webp"
+import copper from "../../../src/assets/images/mineral/copper.webp"
 
 export const metadata = {
   title: 'Company Profile',

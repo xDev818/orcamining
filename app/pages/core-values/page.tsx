@@ -4,7 +4,7 @@ export const metadata = {
   }
   
   import Link from 'next/link'
-  import background from "../../src/assets/images/CoreValues.jpg"
+  import background from "../../src/assets/images/CoreValues.webp"
   
   export default function CoreValues() {
   

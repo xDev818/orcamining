@@ -226,8 +226,7 @@ export default function Header() {
                   <a href="#">
                     Corporate Governance<i className="fa fa-caret-down"></i>
                   </a>
-                  <div className={dropdown ? "dropdown clicked" : "dropdown"}
-                    onClick={() => setDropdown(!dropdown)}>
+                  <div className="dropdown">
                     <ul>
                       <li className="dropdown-link">
                         <Link
@@ -246,7 +245,11 @@ export default function Header() {
                         </Link>
                       </li>
                       <li className="dropdown-link">
-                      <input type="checkbox" name="" id="toggleaboutus"></input>
+                      <input
+                          type="checkbox"
+                          name=""
+                          id="toggleaboutus"
+                        ></input>
                         <a href="#">
                           Partners<i className="fa fa-caret-down"></i>
                         </a>

@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import OrcaLogoHeader from "../../app/src/assets/images/Orca.png"
+import OrcaLogoHeader from "../../app/src/assets/images/orca.png"
 
 export default function Footer() {
   return (

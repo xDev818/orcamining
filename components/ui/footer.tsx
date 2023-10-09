@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import OrcaLogoHeader from "../../app/src/assets/images/orca.png"
-
+ 
 export default function Footer() {
   return (
     <footer>
@@ -12,7 +12,6 @@ export default function Footer() {
 
           {/* Top area: Blocks */}
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
-
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">

@@ -8,7 +8,7 @@ import Navbar from "../navitem/NavBar";
 
 import "./style.css";
 
-import OrcaLogoHeader from "../../app/src/assets/images/OrcaLogoHeader.png";
+import OrcaLogoHeader from "../../app/src/assets/images/OrcaHeader.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core";
